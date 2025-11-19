@@ -12,4 +12,4 @@ A simple dice-rolling application built with HTML, CSS, and JavaScript. It simul
 ## Technologies Used
 HTML, CSS and Javascript
 
-![Screenshot](Dice Roller preview.png)
+![Screenshot](Dice-Roller-preview.png)
