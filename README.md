@@ -1,4 +1,4 @@
-# Dice-roller-using-HTML-CSS-and-Javascript
+# Dice Roller
 
 ## Description
 A simple dice-rolling application built with HTML, CSS, and JavaScript. It simulates rolling one or multiple dice and displays the result visually and numerically.
@@ -11,6 +11,9 @@ A simple dice-rolling application built with HTML, CSS, and JavaScript. It simul
 
 ## Technologies Used
 HTML, CSS and Javascript.
+
+## Screenshot
+Here is a preview of the Dice Roller:
 
 <img width="1020" height="636" alt="Dice Roller preview" src="https://github.com/user-attachments/assets/c515b553-2868-4dae-99e9-6b581770fc69" />
 
