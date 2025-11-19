@@ -1,0 +1,116 @@
+:root{
+    --body-bg-color: #e7ecef;
+    --input-bg-color: var(--body-bg-color);
+    --btn-bg-color: #080818;
+    --btn-text-color: #e7ecef;;
+    --label-text-color: rgb(26, 28, 131);
+    --input-border-color: rgb(26, 28, 131);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--body-bg-color);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    justify-self: center;
+    margin-top: 2rem;
+}
+
+.input-box{
+    position: relative;
+    margin: 1rem 0;
+    width: 10rem;
+    justify-self: center;
+}
+
+input{
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    border-radius: 0.8rem;
+    border: 0.15rem solid var(--input-border-color);
+    background-color: var(--input-bg-color);
+}
+
+label{
+    position: absolute;
+    left: 60%;
+    top: -0.5rem;
+    transform: translateX(-50%);
+    width: 7.8rem;
+    text-align: center;
+    color: var(--label-text-color);
+    background-color: var(--body-bg-color);
+}
+
+button{
+    justify-self: center;
+    padding: 0.1rem 1rem;
+    font-size: 1.18rem;
+    border-radius: 0.4rem;
+    border: none;
+    position: relative;
+    height: 1.5rem;
+    width: 7rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    color: var(--btn-text-color);
+    background-color: var(--btn-bg-color);
+    transition: all 0.2s ease-in-out;
+}
+
+button::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    padding: 0.1rem;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 0.4rem;
+    background: linear-gradient(75deg,rgba(68, 28, 214, 1) 0%, rgba(10, 125, 173, 1) 100%);
+}
+
+button:hover{
+    background-color: transparent;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+#diceResult{
+    margin: 1.563rem;
+    justify-self: center;
+}
+
+#diceImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#diceImages img{
+    width: 10rem;
+    margin: 1rem;
+}
