@@ -10,6 +10,8 @@ A simple dice-rolling application built with HTML, CSS, and JavaScript. It simul
 - Responsive layout for mobile and desktop.
 
 ## Technologies Used
-HTML, CSS and Javascript
+HTML, CSS and Javascript.
 
-![Screenshot](Dice-Roller-preview.png)
+<img width="1020" height="636" alt="Dice Roller preview" src="https://github.com/user-attachments/assets/c515b553-2868-4dae-99e9-6b581770fc69" />
+
+
